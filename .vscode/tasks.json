@@ -30,25 +30,15 @@
                 // "-DNDEBUG",
                 // Disable compilier extensions
                 "-pedantic-errors",
-                // complie my own header-only libraries
-                "-I${HOME}/Documents/HOME/cpp-practice-projects/myLibs/Shape2D",
-                "-I${HOME}/Documents/HOME/cpp-practice-projects/myLibs/utilities",
                 // Add additionally header files from
                 // current workspace folder
                 "-I${workspaceFolder}/include",
+                "${fileDirname}/**.cpp",
                 // The ${file} variable expands to the current file name.
-                "${file}",
+                // "${file}",
                 // Specify the output file. The output will be placed in the same directory with the same base name.
                 // "-o",
                 // "${fileDirname}/${fileBasenameNoExtension}",
-                // Link raylib and dependencies
-                "-lraylib",
-                "-lGL",
-                "-lm",
-                "-lpthread",
-                "-ldl",
-                "-lrt",
-                "-lX11"
             ],
             "options": {
                 "cwd": "${fileDirname}"

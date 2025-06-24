@@ -4,9 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/include",
-                "${HOME}/Documents/HOME/cpp-practice-projects/myLibs/Shape2D",
-                "${HOME}/Documents/HOME/cpp-practice-projects/myLibs/utilities"
+                "${workspaceFolder}/include"
             ],
             "defines": [],
             "cStandard": "c17",
