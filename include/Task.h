@@ -48,7 +48,7 @@ private:
     std::string m_category{};
 };
 
-// applied inline to avoid violate ODR
+// applied inline to avoid violating ODR
 
 // ID generator
 inline std::int16_t Task::s_taskCount{};
